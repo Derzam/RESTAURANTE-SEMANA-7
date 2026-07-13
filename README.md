@@ -164,4 +164,5 @@ El programa **no se rompe ante entradas incorrectas**. Cada opción del menú en
 | **Manejo de excepciones** | `try/except` en `main.py` para evitar que entradas inválidas rompan el programa |
 
 ---
-
+## Reflexion 
+Crear objetos a partir de datos ingresados por el usuario es fundamental porque convierte texto o números sueltos en información estructurada y confiable: el constructor y los setters de una clase como Producto no solo agrupan nombre, categoría y precio en una sola entidad coherente, sino que además validan esos datos antes de aceptarlos, evitando que el sistema termine con objetos inválidos —como un precio negativo o un nombre vacío— y garantizando que el resto del programa pueda confiar en la información con la que trabaja sin tener que revalidarla constantemente.
